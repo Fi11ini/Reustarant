@@ -326,6 +326,7 @@ body {
     margin-bottom: 20px;
     text-align: center;
     padding-top: 132px;
+    margin-bottom: 132px;
 }
 
 .dishes-title span {
@@ -334,8 +335,23 @@ body {
 
 .burgers {
     display: flex;
+    justify-content: center;
 }
 
 .burger-item {
     display: flex;
+    align-items: center;
+    margin-bottom: 29px;
+}
+
+.burgers-image {
+    margin-right: 20px;
+}
+
+.burger-text {
+    color: #0b0501;
+    font-family: 'Tinos', serif;
+    font-size: 26px;
+    font-weight: 400;
+    margin-left: 20px;
 }
