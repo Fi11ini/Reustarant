@@ -201,6 +201,7 @@ body {
 
 .history {
     margin-top: 166px;
+    padding-bottom: 300px;
 }
 
 
@@ -276,4 +277,32 @@ body {
     z-index: 999;
     top: 265px;
     left: 446px;
+}
+
+.black-block {
+    background-image: url(/img/black-bg.jpg);
+}
+
+.left-title {
+    color: #D67E34;
+    font-family: 'Tinos', serif;
+    font-size: 52px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.left-text {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #fff;
+}
+
+.right-btn {
+    background-color: #FF7400;
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 18px;
+    font-weight: 700;
+    transition: background-color 0.2s linear;
 }
