@@ -331,3 +331,11 @@ body {
 .dishes-title span {
     color:#D67E34;
 }
+
+.burgers {
+    display: flex;
+}
+
+.burger-item {
+    display: flex;
+}
