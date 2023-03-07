@@ -468,3 +468,34 @@ body {
     text-align: center;
     margin-top: 9px;
 }
+
+
+
+.galery-title {
+    font-family:'Tinos', serif;
+    font-size: 54px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+.galery-title span {
+    color:#D67E34;
+}
+
+.galery-content {
+    display:flex;
+    justify-content: center;
+}
+
+.galery-left {
+    margin-right: 25px;
+}
+
+.galery-down,
+.galery-up {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
